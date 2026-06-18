@@ -6,8 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Esto es un titulo :D</h1>
-    {{>menu}}
-    
+    {{#each usuarios}}
+        <h2>{{../prefix}} {{nombre}}</h2>
+    {{/each}}
 </body>
 </html>
